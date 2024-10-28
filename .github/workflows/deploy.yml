@@ -28,7 +28,7 @@ jobs:
       run: npm run build -- --configuration production  
 
     - name: Create .nojekyll file
-      run: echo "" > ./dist/AvanHomeForSale/.nojekyll
+      run: echo "" > ./dist/AvanHomeForSale/src/.nojekyll
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
